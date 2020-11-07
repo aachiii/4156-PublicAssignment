@@ -1,6 +1,16 @@
 package models;
 
 public class Move {
+  
+  /**
+   * Construction method.
+   */
+  public Move(Player player, int moveX, int moveY) {
+    super();
+    this.player = player;
+    this.moveX = moveX;
+    this.moveY = moveY;
+  }
 
   public Player getPlayer() {
     return player;

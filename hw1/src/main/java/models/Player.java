@@ -1,6 +1,19 @@
 package models;
 
 public class Player {
+  
+  /**
+  * Construction method.
+  */
+  public Player(char type, int id) {
+    super();
+    this.type = type;
+    this.id = id;
+  }
+
+  public Player() {
+    // TODO Auto-generated constructor stub
+  }
 
   public char getType() {
     return type;

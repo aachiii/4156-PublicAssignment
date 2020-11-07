@@ -76,11 +76,11 @@ public class GameBoard {
   }
 
   public char[][] getBoardState() {
-    return boardState;
+    return boardState.clone();
   }
 
   public void setBoardState(char[][] boardState) {
-    this.boardState = boardState;
+    this.boardState = boardState.clone();
   }
 
   public int getWinner() {
@@ -98,6 +98,7 @@ public class GameBoard {
   public void setDraw(boolean isDraw) {
     this.isDraw = isDraw;
   }
+
 
 
 }
